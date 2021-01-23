@@ -1,1 +1,2 @@
-
+- If two requests are issued nearly at the same time, the one with the smaller ```conn_fd``` will be processed first, and the other one will return ```locked```.
+- I test my program on linux1.
